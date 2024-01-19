@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p_margeBlock{
+    @apply px-4 lg:px-16 pt-3 pb-5;
+}
+
+.p_titleSection{
+    @apply text-2xl font-bold uppercase font-Inconsolata;
+}
+
+.p_assetSection{
+    @apply text-xl font-bold font-Inconsolata;
+}
+
+ul{
+   @apply list-disc; 
+   @apply  ml-5;
+}
+.p_localisationSection{
+    @apply text-lg font-bold ;
+}
+
